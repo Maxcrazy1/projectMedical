@@ -84,4 +84,7 @@
         Me.WindowState = FormWindowState.Minimized
     End Sub 'BtnMinimizar
 
+    Private Sub BunifuFlatButton1_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton1.Click
+        PnlWaitList1.BringToFront()
+    End Sub
 End Class

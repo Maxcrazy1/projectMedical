@@ -128,7 +128,7 @@ Partial Class PnlWaitList
         Me.BtnNew.IconVisible = True
         Me.BtnNew.IconZoom = 50.0R
         Me.BtnNew.IsTab = False
-        Me.BtnNew.Location = New System.Drawing.Point(389, 606)
+        Me.BtnNew.Location = New System.Drawing.Point(388, 615)
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Normalcolor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
         Me.BtnNew.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(141, Byte), Integer))

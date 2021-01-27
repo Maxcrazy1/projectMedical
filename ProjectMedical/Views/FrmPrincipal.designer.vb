@@ -47,6 +47,7 @@ Partial Class FrmPrincipal
         Me.PnlHeman_11 = New ProjectMedical.PnlHeman_1()
         Me.PnlHeman_Final1 = New ProjectMedical.PnlHeman_Final()
         Me.PnlLeft = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BtnRegistrar = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.lblRoleUser = New System.Windows.Forms.Label()
         Me.lblNameUsr = New System.Windows.Forms.Label()
@@ -59,7 +60,7 @@ Partial Class FrmPrincipal
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.BtnLista = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BtnDatos = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuFlatButton1 = New Bunifu.Framework.UI.BunifuFlatButton()
+        Me.PnlWaitList1 = New ProjectMedical.PnlWaitList()
         Me.PnlTop.SuspendLayout()
         CType(Me.btnSettings, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelView.SuspendLayout()
@@ -162,6 +163,7 @@ Partial Class FrmPrincipal
         Me.PanelView.Controls.Add(Me.PnlHeman_21)
         Me.PanelView.Controls.Add(Me.PnlHeman_11)
         Me.PanelView.Controls.Add(Me.PnlHeman_Final1)
+        Me.PanelView.Controls.Add(Me.PnlWaitList1)
         Me.PanelView.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PanelView.Location = New System.Drawing.Point(256, 43)
         Me.PanelView.Name = "PanelView"
@@ -282,6 +284,42 @@ Partial Class FrmPrincipal
         Me.PnlLeft.Quality = 10
         Me.PnlLeft.Size = New System.Drawing.Size(256, 690)
         Me.PnlLeft.TabIndex = 0
+        '
+        'BunifuFlatButton1
+        '
+        Me.BunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(207, Byte), Integer))
+        Me.BunifuFlatButton1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuFlatButton1.BorderRadius = 0
+        Me.BunifuFlatButton1.ButtonText = " Pacientes en espera (2)"
+        Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuFlatButton1.Font = New System.Drawing.Font("Futura Md BT", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton1.Iconimage = CType(resources.GetObject("BunifuFlatButton1.Iconimage"), System.Drawing.Image)
+        Me.BunifuFlatButton1.Iconimage_right = Nothing
+        Me.BunifuFlatButton1.Iconimage_right_Selected = Nothing
+        Me.BunifuFlatButton1.Iconimage_Selected = Nothing
+        Me.BunifuFlatButton1.IconMarginLeft = 7
+        Me.BunifuFlatButton1.IconMarginRight = 0
+        Me.BunifuFlatButton1.IconRightVisible = True
+        Me.BunifuFlatButton1.IconRightZoom = 0.0R
+        Me.BunifuFlatButton1.IconVisible = True
+        Me.BunifuFlatButton1.IconZoom = 70.0R
+        Me.BunifuFlatButton1.IsTab = False
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(-2, 354)
+        Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
+        Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
+        Me.BunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(207, Byte), Integer))
+        Me.BunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White
+        Me.BunifuFlatButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuFlatButton1.selected = False
+        Me.BunifuFlatButton1.Size = New System.Drawing.Size(268, 58)
+        Me.BunifuFlatButton1.TabIndex = 18
+        Me.BunifuFlatButton1.Text = " Pacientes en espera (2)"
+        Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
+        Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Futura Md BT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
         'BtnRegistrar
         '
@@ -519,42 +557,13 @@ Partial Class FrmPrincipal
         Me.BtnDatos.Textcolor = System.Drawing.Color.White
         Me.BtnDatos.TextFont = New System.Drawing.Font("Futura Md BT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
-        'BunifuFlatButton1
+        'PnlWaitList1
         '
-        Me.BunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.BunifuFlatButton1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuFlatButton1.BorderRadius = 0
-        Me.BunifuFlatButton1.ButtonText = " Pacientes en espera (2)"
-        Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray
-        Me.BunifuFlatButton1.Font = New System.Drawing.Font("Futura Md BT", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton1.Iconimage = CType(resources.GetObject("BunifuFlatButton1.Iconimage"), System.Drawing.Image)
-        Me.BunifuFlatButton1.Iconimage_right = Nothing
-        Me.BunifuFlatButton1.Iconimage_right_Selected = Nothing
-        Me.BunifuFlatButton1.Iconimage_Selected = Nothing
-        Me.BunifuFlatButton1.IconMarginLeft = 7
-        Me.BunifuFlatButton1.IconMarginRight = 0
-        Me.BunifuFlatButton1.IconRightVisible = True
-        Me.BunifuFlatButton1.IconRightZoom = 0.0R
-        Me.BunifuFlatButton1.IconVisible = True
-        Me.BunifuFlatButton1.IconZoom = 70.0R
-        Me.BunifuFlatButton1.IsTab = False
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(-2, 354)
-        Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
-        Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(81, Byte), Integer), CType(CType(173, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.BunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White
-        Me.BunifuFlatButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuFlatButton1.selected = False
-        Me.BunifuFlatButton1.Size = New System.Drawing.Size(268, 58)
-        Me.BunifuFlatButton1.TabIndex = 18
-        Me.BunifuFlatButton1.Text = " Pacientes en espera (2)"
-        Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.White
-        Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Futura Md BT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuFlatButton1.Visible = False
+        Me.PnlWaitList1.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PnlWaitList1.Location = New System.Drawing.Point(0, 0)
+        Me.PnlWaitList1.Name = "PnlWaitList1"
+        Me.PnlWaitList1.Size = New System.Drawing.Size(940, 696)
+        Me.PnlWaitList1.TabIndex = 9
         '
         'FrmPrincipal
         '
@@ -615,6 +624,7 @@ Partial Class FrmPrincipal
     Friend WithEvents PnlHeman_21 As ProjectMedical.PnlHeman_2
     Friend WithEvents PnlHeman_Final1 As ProjectMedical.PnlHeman_Final
     Friend WithEvents BunifuFlatButton1 As Bunifu.Framework.UI.BunifuFlatButton
+    Friend WithEvents PnlWaitList1 As ProjectMedical.PnlWaitList
     ' Friend WithEvents PnlRegistro1 As ConSql.PnlRegistro
 
 End Class

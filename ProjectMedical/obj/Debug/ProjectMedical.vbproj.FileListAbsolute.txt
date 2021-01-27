@@ -64,3 +64,5 @@ D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.exe
 D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.xml
 D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.pdb
 D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.vbprojResolveAssemblyReference.cache
+D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.PnlWaitList.resources
+D:\www\VB.NET\ProjectMedical\ProjectMedical\obj\Debug\ProjectMedical.FrmSelectPatient.resources

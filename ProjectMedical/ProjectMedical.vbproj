@@ -159,6 +159,12 @@
     <Compile Include="Controllers\Services\CtrlMedia.vb" />
     <Compile Include="Controllers\Crud\Patient.vb" />
     <Compile Include="Controllers\Crud\CtrlUsers.vb" />
+    <Compile Include="Panels\Lists\PnlWaitList.Designer.vb">
+      <DependentUpon>PnlWaitList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Lists\PnlWaitList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Views\FrmPath.Designer.vb">
       <DependentUpon>FrmPath.vb</DependentUpon>
     </Compile>
@@ -251,8 +257,17 @@
     <Compile Include="Panels\Forms\PnlSettings.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Views\FrmSelectPatient.Designer.vb">
+      <DependentUpon>FrmSelectPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmSelectPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Panels\Lists\PnlWaitList.resx">
+      <DependentUpon>PnlWaitList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\FrmPath.resx">
       <DependentUpon>FrmPath.vb</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Panels\Forms\PnlSettings.resx">
       <DependentUpon>PnlSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmSelectPatient.resx">
+      <DependentUpon>FrmSelectPatient.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
