@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C352CD7-F186-43B3-968F-30BC08CB6233}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProjectMedical.My.MyApplication</StartupObject>
+    <RootNamespace>ProjectMedical</RootNamespace>
+    <AssemblyName>ProjectMedical</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Documents\Directorio de intercambio Bluetooth\instalador\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>26</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProjectMedical.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProjectMedical.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>831EE4EEBB974F6C1A86B2418BE637999DE57FBD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ProjectMedical_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ProjectMedical_ClaveTemporal.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>corazon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.7.4137.9688, Culture=neutral, PublicKeyToken=a4292a325f69b123, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.1.7.0\lib\Net40-Client\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>core\UI\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>core\mysql-connector-net-6.9.8-noinstall\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectListView, Version=2.9.1.26215, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>core\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="OC.Core, Version=2.0.0.17347, Culture=neutral, PublicKeyToken=21d5b409dafb75d2, processorArchitecture=MSIL">
+      <HintPath>..\packages\OC.Core.2.0.0\lib\net40\OC.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OC.Core.Crypto, Version=1.4.13.38223, Culture=neutral, PublicKeyToken=21d5b409dafb75d2, processorArchitecture=MSIL">
+      <HintPath>..\packages\OC.Core.Crypto.1.4.13\lib\net40\OC.Core.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Containers\Forms\InPnlHeman.vb" />
+    <Compile Include="Containers\Forms\InPnlHistory.vb" />
+    <Compile Include="Containers\Lists\InPnlLstPatients.vb" />
+    <Compile Include="Containers\Lists\InPnlListHistory.vb" />
+    <Compile Include="Containers\Forms\InPnlRegister.vb" />
+    <Compile Include="Containers\Forms\InPnlSettings.vb" />
+    <Compile Include="Containers\Forms\actionsFormHistory.vb" />
+    <Compile Include="Controllers\Crud\ctrlCrud.vb" />
+    <Compile Include="Controllers\Services\ServiceWord.vb" />
+    <Compile Include="Controllers\Crud\CtrlHemanHistory.vb" />
+    <Compile Include="Controllers\Crud\History.vb" />
+    <Compile Include="Containers\InHome.vb" />
+    <Compile Include="Controllers\Services\CtrlMedia.vb" />
+    <Compile Include="Controllers\Crud\Patient.vb" />
+    <Compile Include="Controllers\Crud\CtrlUsers.vb" />
+    <Compile Include="Views\FrmPath.Designer.vb">
+      <DependentUpon>FrmPath.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmPath.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hooks\CallData.vb" />
+    <Compile Include="Hooks\ComparerList.vb" />
+    <Compile Include="Controllers\Services\ServiceExport.vb" />
+    <Compile Include="Panels\Forms\StepsHemanHistory\Pnl_Heman_final.Designer.vb">
+      <DependentUpon>Pnl_Heman_final.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\StepsHemanHistory\Pnl_Heman_final.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Forms\StepsHemanHistory\PnlHeman_2.Designer.vb">
+      <DependentUpon>PnlHeman_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\StepsHemanHistory\PnlHeman_2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Forms\StepsHemanHistory\PnlHeman_1.Designer.vb">
+      <DependentUpon>PnlHeman_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\StepsHemanHistory\PnlHeman_1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlHistoria.Designer.vb">
+      <DependentUpon>PnlHistoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlHistoria.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FrmPrincipal.designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hooks\OwnFunctions.vb" />
+    <Compile Include="Model\Connection.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Panels\Lists\PnlHistoryRegister.Designer.vb">
+      <DependentUpon>PnlHistoryRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Lists\PnlHistoryRegister.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\PnlInicio.Designer.vb">
+      <DependentUpon>PnlInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\PnlInicio.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Lists\PnlListado.Designer.vb">
+      <DependentUpon>PnlListado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Lists\PnlListado.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlRegistro.Designer.vb">
+      <DependentUpon>PnlRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlRegistro.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlSettings.Designer.vb">
+      <DependentUpon>PnlSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Forms\PnlSettings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\FrmPath.resx">
+      <DependentUpon>FrmPath.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\StepsHemanHistory\Pnl_Heman_final.resx">
+      <DependentUpon>Pnl_Heman_final.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\StepsHemanHistory\PnlHeman_2.resx">
+      <DependentUpon>PnlHeman_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\StepsHemanHistory\PnlHeman_1.resx">
+      <DependentUpon>PnlHeman_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\PnlHistoria.resx">
+      <DependentUpon>PnlHistoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Lists\PnlHistoryRegister.resx">
+      <DependentUpon>PnlHistoryRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\PnlInicio.resx">
+      <DependentUpon>PnlInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Lists\PnlListado.resx">
+      <DependentUpon>PnlListado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\PnlRegistro.resx">
+      <DependentUpon>PnlRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Forms\PnlSettings.resx">
+      <DependentUpon>PnlSettings.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectMedical_ClaveTemporal.pfx" />
+    <None Include="Resources\Futura Medium BT.ttf" />
+    <None Include="Resources\GOTHIC.TTF" />
+    <None Include="Resources\GOTHICB.TTF" />
+    <None Include="Resources\GOTHICBI.TTF" />
+    <None Include="Resources\GOTHICI.TTF" />
+    <None Include="Resources\LHANDW.TTF" />
+    <None Include="Resources\Template.docx" />
+    <None Include="Src\Fonts\Futura Medium BT.ttf" />
+    <None Include="Src\Fonts\GOTHIC.TTF" />
+    <None Include="Src\Fonts\GOTHICB.TTF" />
+    <None Include="Src\Fonts\GOTHICBI.TTF" />
+    <None Include="Src\Fonts\GOTHICI.TTF" />
+    <None Include="Src\Fonts\LHANDW.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cora.ico" />
+    <Content Include="corazon.ico" />
+    <Content Include="corito.ico" />
+    <None Include="Src\Icons\001-enfermera.png" />
+    <None Include="Src\Icons\Admin.png" />
+    <Content Include="Src\Icons\criminal.png" />
+    <Content Include="Src\Icons\001-una.png" />
+    <Content Include="Src\Icons\002-bacteria.png" />
+    <Content Include="Src\Icons\003-piel.png" />
+    <Content Include="Src\Icons\004-anafilaxia.png" />
+    <Content Include="Src\Icons\006-arbol-familiar.png" />
+    <Content Include="Src\Icons\007-examen.png" />
+    <Content Include="Src\Icons\008-frio.png" />
+    <Content Include="Src\Icons\009-historial-medico.png" />
+    <Content Include="Src\Icons\010-documento-medico.png" />
+    <Content Include="Src\Icons\525874.png" />
+    <Content Include="Src\Icons\documento.png" />
+    <Content Include="Src\Icons\palabra.png" />
+    <Content Include="Src\Icons\bloc%281%29.png" />
+    <Content Include="Src\Icons\001-agregar-simbolo-de-usuario.png" />
+    <Content Include="Src\Icons\002-copia.png" />
+    <Content Include="Src\Icons\006-resaltador-1.png" />
+    <Content Include="Src\Icons\007-pegar.png" />
+    <Content Include="Src\Icons\009-caucho.png" />
+    <Content Include="Src\Icons\deshacer.png" />
+    <Content Include="Src\Icons\donante.png" />
+    <Content Include="Src\Icons\rehacer.png" />
+    <Content Include="Src\Icons\reportar.png" />
+    <None Include="Src\Icons\sub-admin.png" />
+    <Content Include="Src\Icons\top.png" />
+    <Content Include="Src\Icons\male.png" />
+    <Content Include="Src\Icons\female.png" />
+    <Content Include="Src\Icons\una.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
