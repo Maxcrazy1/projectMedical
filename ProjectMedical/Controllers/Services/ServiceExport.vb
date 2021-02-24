@@ -28,7 +28,7 @@
         Dim Patient As New Patient
         Dim dataDBPatient = Patient.getPatient(FrmPrincipal.cedula)
 
-        dataPatient("age") = CStr(DateDiff(DateInterval.Year, Convert.ToDateTime(dataDBPatient(1)("date_birth").ToString), Date.Today))
+        dataPatient("age") = dataDBPatient(1)("age").ToString
         dataPatient("name") = dataDBPatient(1)("name".ToString) & " " & dataDBPatient(1)("last_name".ToString)
         dataPatient("address") = dataDBPatient(1)("address".ToString)
         dataPatient("genre") = If(dataDBPatient(1)("genre".ToString) = 0, "Masculino", "Femenino")
