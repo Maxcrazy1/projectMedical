@@ -25,8 +25,12 @@ Partial Class FrmSelectPatient
         Me.PnlTop = New System.Windows.Forms.Panel()
         Me.lblName = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Label()
-        Me.PnlListado1 = New ProjectMedical.PnlListado()
+        Me.lstPatients = New BrightIdeasSoftware.ObjectListView()
+        Me.documentId = CType(New BrightIdeasSoftware.OLVColumn(), BrightIdeasSoftware.OLVColumn)
+        Me.namePatient = CType(New BrightIdeasSoftware.OLVColumn(), BrightIdeasSoftware.OLVColumn)
+        Me.lastName = CType(New BrightIdeasSoftware.OLVColumn(), BrightIdeasSoftware.OLVColumn)
         Me.PnlTop.SuspendLayout()
+        CType(Me.lstPatients, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PnlTop
@@ -64,32 +68,75 @@ Partial Class FrmSelectPatient
         Me.btnClose.TabIndex = 2
         Me.btnClose.Text = "X"
         '
-        'PnlListado1
+        'lstPatients
         '
-        Me.PnlListado1.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PnlListado1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PnlListado1.Location = New System.Drawing.Point(0, 44)
-        Me.PnlListado1.Name = "PnlListado1"
-        Me.PnlListado1.Size = New System.Drawing.Size(661, 442)
-        Me.PnlListado1.TabIndex = 3
+        Me.lstPatients.AllColumns.Add(Me.documentId)
+        Me.lstPatients.AllColumns.Add(Me.namePatient)
+        Me.lstPatients.AllColumns.Add(Me.lastName)
+        Me.lstPatients.AlternateRowBackColor = System.Drawing.Color.FromArgb(CType(CType(203, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(233, Byte), Integer))
+        Me.lstPatients.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lstPatients.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lstPatients.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.documentId, Me.namePatient, Me.lastName})
+        Me.lstPatients.Cursor = System.Windows.Forms.Cursors.Default
+        Me.lstPatients.EmptyListMsg = "No hay pacientes registrados"
+        Me.lstPatients.EmptyListMsgFont = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.lstPatients.Font = New System.Drawing.Font("Century Gothic", 12.0!)
+        Me.lstPatients.FullRowSelect = True
+        Me.lstPatients.Location = New System.Drawing.Point(83, 99)
+        Me.lstPatients.Name = "lstPatients"
+        Me.lstPatients.ShowGroups = False
+        Me.lstPatients.ShowImagesOnSubItems = True
+        Me.lstPatients.Size = New System.Drawing.Size(505, 309)
+        Me.lstPatients.TabIndex = 12
+        Me.lstPatients.UseAlternatingBackColors = True
+        Me.lstPatients.UseCompatibleStateImageBehavior = False
+        Me.lstPatients.UseFiltering = True
+        Me.lstPatients.UseSubItemCheckBoxes = True
+        Me.lstPatients.View = System.Windows.Forms.View.Details
+        '
+        'documentId
+        '
+        Me.documentId.AspectName = "documentId"
+        Me.documentId.Text = "Cédula"
+        Me.documentId.UseInitialLetterForGroup = True
+        Me.documentId.Width = 120
+        '
+        'namePatient
+        '
+        Me.namePatient.AspectName = "namePatient"
+        Me.namePatient.Text = "Nombre"
+        Me.namePatient.Width = 190
+        '
+        'lastName
+        '
+        Me.lastName.AspectName = "lastName"
+        Me.lastName.Text = "Apellido"
+        Me.lastName.Width = 190
         '
         'FrmSelectPatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(254, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(661, 485)
-        Me.Controls.Add(Me.PnlListado1)
+        Me.Controls.Add(Me.lstPatients)
         Me.Controls.Add(Me.PnlTop)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FrmSelectPatient"
         Me.Text = "FrmSelectPatient"
         Me.PnlTop.ResumeLayout(False)
         Me.PnlTop.PerformLayout()
+        CType(Me.lstPatients, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents PnlTop As System.Windows.Forms.Panel
     Friend WithEvents lblName As System.Windows.Forms.Label
     Friend WithEvents btnClose As System.Windows.Forms.Label
-    Friend WithEvents PnlListado1 As ProjectMedical.PnlListado
+    Public WithEvents lstPatients As BrightIdeasSoftware.ObjectListView
+    Public WithEvents documentId As BrightIdeasSoftware.OLVColumn
+    Friend WithEvents namePatient As BrightIdeasSoftware.OLVColumn
+    Friend WithEvents lastName As BrightIdeasSoftware.OLVColumn
 End Class

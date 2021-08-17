@@ -21,7 +21,7 @@ Public Class PnlHistoria
     End Sub
 
     Private Sub BtnHabPsi_Click(sender As Object, e As EventArgs) Handles habitos.Click
-        SetTitleHistoryInPnl("Información de los hábitos psicobiológicos", "habitos")
+        SetTitleHistoryInPnl("Información de los hábitos psicobiológicos", "hábitos")
     End Sub
 
     Private Sub BtnPiel_Click(sender As Object, e As EventArgs) Handles piel.Click

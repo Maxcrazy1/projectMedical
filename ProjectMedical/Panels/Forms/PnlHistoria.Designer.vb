@@ -231,7 +231,7 @@ Partial Class PnlHistoria
         'BtnSaveHistory
         '
         Me.BtnSaveHistory.Activecolor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
-        Me.BtnSaveHistory.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.BtnSaveHistory.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BtnSaveHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BtnSaveHistory.BorderRadius = 2
         Me.BtnSaveHistory.ButtonText = "Guardar información"
@@ -266,7 +266,7 @@ Partial Class PnlHistoria
         'btnAddFiles
         '
         Me.btnAddFiles.Activecolor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
-        Me.btnAddFiles.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.btnAddFiles.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.btnAddFiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAddFiles.BorderRadius = 2
         Me.btnAddFiles.ButtonText = "Añadir archivos"
@@ -301,7 +301,7 @@ Partial Class PnlHistoria
         'btnOpenFolder
         '
         Me.btnOpenFolder.Activecolor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
-        Me.btnOpenFolder.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.btnOpenFolder.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.btnOpenFolder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnOpenFolder.BorderRadius = 2
         Me.btnOpenFolder.ButtonText = "Abrir carpeta"
@@ -362,7 +362,7 @@ Partial Class PnlHistoria
         '
         'controles
         '
-        Me.controles.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.controles.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.controles.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.controles.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.controles.Cursor = System.Windows.Forms.Cursors.Hand
@@ -382,7 +382,7 @@ Partial Class PnlHistoria
         '
         'plan
         '
-        Me.plan.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.plan.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.plan.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.plan.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.plan.Cursor = System.Windows.Forms.Cursors.Hand
@@ -402,7 +402,7 @@ Partial Class PnlHistoria
         '
         'DX
         '
-        Me.DX.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.DX.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.DX.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.DX.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.DX.Cursor = System.Windows.Forms.Cursors.Hand
@@ -422,7 +422,7 @@ Partial Class PnlHistoria
         '
         'unas
         '
-        Me.unas.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.unas.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.unas.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.unas.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.unas.Cursor = System.Windows.Forms.Cursors.Hand
@@ -442,7 +442,7 @@ Partial Class PnlHistoria
         '
         'mucosas
         '
-        Me.mucosas.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.mucosas.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.mucosas.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.mucosas.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.mucosas.Cursor = System.Windows.Forms.Cursors.Hand
@@ -462,7 +462,7 @@ Partial Class PnlHistoria
         '
         'cuero
         '
-        Me.cuero.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.cuero.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.cuero.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.cuero.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.cuero.Cursor = System.Windows.Forms.Cursors.Hand
@@ -482,7 +482,7 @@ Partial Class PnlHistoria
         '
         'piel
         '
-        Me.piel.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.piel.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.piel.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.piel.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.piel.Cursor = System.Windows.Forms.Cursors.Hand
@@ -502,7 +502,7 @@ Partial Class PnlHistoria
         '
         'habitos
         '
-        Me.habitos.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.habitos.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.habitos.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.habitos.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.habitos.Cursor = System.Windows.Forms.Cursors.Hand
@@ -522,7 +522,7 @@ Partial Class PnlHistoria
         '
         'familiares
         '
-        Me.familiares.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.familiares.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.familiares.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.familiares.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.familiares.Cursor = System.Windows.Forms.Cursors.Hand
@@ -542,7 +542,7 @@ Partial Class PnlHistoria
         '
         'personales
         '
-        Me.personales.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.personales.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.personales.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.personales.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.personales.Cursor = System.Windows.Forms.Cursors.Hand
@@ -570,7 +570,7 @@ Partial Class PnlHistoria
         '
         'enfermedad
         '
-        Me.enfermedad.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.enfermedad.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.enfermedad.color = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.enfermedad.colorActive = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(98, Byte), Integer), CType(CType(122, Byte), Integer))
         Me.enfermedad.Cursor = System.Windows.Forms.Cursors.Hand
@@ -657,7 +657,7 @@ Partial Class PnlHistoria
         'BtnNew
         '
         Me.BtnNew.Activecolor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
-        Me.BtnNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(163, Byte), Integer))
+        Me.BtnNew.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(183, Byte), Integer))
         Me.BtnNew.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BtnNew.BorderRadius = 4
         Me.BtnNew.ButtonText = "Nuevo Registro"
@@ -727,7 +727,7 @@ Partial Class PnlHistoria
         Me.Controls.Add(Me.listFiles)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "PnlHistoria"
-        Me.Size = New System.Drawing.Size(912, 588)
+        Me.Size = New System.Drawing.Size(895, 588)
         CType(Me.btnRedo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BtnUndo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnSelectAll, System.ComponentModel.ISupportInitialize).EndInit()

@@ -29,7 +29,7 @@
                      "¿DESEA ELIMINAR TODOS LOS REGISTROS DEL PACIENTE SELECCIONADOS?", "¿DESEA ELIMINAR EL REGISTRO DEL PACIENTE?")
 
         If MessageBox.Show(Msg, "Atención", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = Windows.Forms.DialogResult.Yes Then
-            If (lstHistory.SelectedItems.Count() > 1) Then
+            If (lstHistory.SelectedItems.Count() >= 1) Then
                 InPnlHistory.deleteListHistory(lstHistory)
             Else
                 InPnlHeman.deleteListHistory(lstHeman)
